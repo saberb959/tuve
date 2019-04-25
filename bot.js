@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const prefix = '-';
+console.log("Bot is on By saber");
 
 client.on('message' , message => {
     if(message.author.bot) return;
