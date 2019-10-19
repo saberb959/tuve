@@ -56,7 +56,7 @@ console.log(`----------------`);
 console.log(`ON ${client.guilds.size} Servers '     Script By : Saber ' `);
 console.log(`----------------`);
 console.log(`Logged in as ${client.user.tag}-`);
-client.user.setGame('-help | Tuve server',"http://twitch.tv/S-F")
+client.user.setGame('-help | games craft server',"http://twitch.tv/S-F")
 client.user.setStatus("dnd")
 });
 
@@ -733,7 +733,7 @@ client.on('message', function(message) {
           .setThumbnail(`${message.author.avatarURL}`)
           .setDescription(`\n\n\`\`\`${message.content}\`\`\``)
           .setFooter(`من (@${message.author.tag})  |  (${message.author.id})`)
-      client.channels.get("570320196171202603").send({ embed: stewart });
+      client.channels.get("630240593951588355").send({ embed: stewart });
   }
 });
 
