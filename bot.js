@@ -165,7 +165,7 @@ client.on('message',async message => {
                   collected.first().delete();
                   try {
                     let giveEmbed = new Discord.RichEmbed()
-                    .setAuthor(`Tuve giveaways`)
+                    .setAuthor(`games craft giveaways`)
                     .setTitle(title)
                     .setDescription(`Time : ${duration / 60000} Minute`)
                     .setFooter(message.author.username, message.author.avatarURL);
